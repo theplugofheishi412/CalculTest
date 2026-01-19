@@ -8,8 +8,8 @@ pipeline {
   
   environment {
     // L'ID de ton serveur Artifactory dans Jenkins
-    ARTIFACTORY_SERVER = 'Artifactory_App'
-    REPOSITORY = 'Java-projet'
+    ARTIFACTORY_SERVER = 'artifactory'
+    REPOSITORY = 'Java_test'
   }
   
   options {
